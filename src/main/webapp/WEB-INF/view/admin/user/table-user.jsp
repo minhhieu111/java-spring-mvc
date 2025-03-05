@@ -40,9 +40,11 @@
                                         <td>${user.fullName}</td>
                                         <td>
                                             <div class="d-flex">
-                                                <a href="" class="btn btn-success">View</a>
-                                                <a href="" class="btn btn-warning mx-2">Update</a>
-                                                <a href="" class="btn btn-danger">Delete</a>
+                                                <a href="/admin/user/${user.id}" class="btn btn-success">View</a>
+                                                <a href="/admin/user/update/${user.id}"
+                                                    class="btn btn-warning mx-2">Update</a>
+                                                <a href="/admin/user/delete/${user.id}"
+                                                    class="btn btn-danger">Delete</a>
                                             </div>
                                         </td>
                                     </tr>
